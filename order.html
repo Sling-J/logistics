@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="css/uikit.min.css" />
+   <script src="js/uikit.min.js"></script>
+   <script src="js/uikit-icons.min.js"></script>
+   <title>Logistics</title>
+</head>
+
+<body>
+   <nav class="navigation">
+      <div class="nav-wrapper">
+         <ul class="nav-menu flex j-center">
+            <li class="nav-menu__item">
+               <a href="./index.html">
+                  Главная
+               </a>
+            </li>
+
+            <li class="nav-menu__item">
+               <a href="./about.html">
+                  О компании
+               </a>
+            </li>
+
+            <li class="nav-menu__item">
+               <a href="./services.html">
+                  Услуги
+               </a>
+            </li>
+
+            <li class="nav-menu__item">
+               <a href="./packaging.html">
+                  Упаковка
+               </a>
+            </li>
+
+            <li class="nav-menu__item">
+               <a href="./order-status.html">
+                  Статус заказа
+               </a>
+            </li>
+
+            <li class="nav-menu__item nav-menu__item-active">
+               <a href="./order.html">
+                  Заказать доставку груза
+               </a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+
+   <header class="secondary-header">
+      <h1>Заказать доставку груза</h1>
+   </header>
+
+   <section class="calculate-section">
+      <div class="wrapper">
+         <form>
+            <div class="calculate-form">
+               <div class="calculate-form-group">
+                  <div class="calculate-form-group-field">
+                     <label for="phone">Телефон</label>
+                     <input id="phone" type="text" placeholder="87087987443">
+                  </div>
+
+                  <div class="calculate-form-group-field">
+                     <label for="email">Email</label>
+                     <input id="email" type="text" placeholder="example@email.com">
+                  </div>
+               </div>
+
+               <div class="calculate-form-group">
+                  <div class="calculate-form-group-field">
+                     <label for="city-A">Точка отправление</label>
+                     <select id="city-A" type="text">
+                        <option value="1">Семей</option>
+                        <option value="1">Семей</option>
+                        <option value="1">Семей</option>
+                        <option value="1">Семей</option>
+                     </select>
+                  </div>
+
+                  <div class="calculate-form-group-field">
+                     <label for="address-A">Адрес</label>
+                     <input id="address-A" type="text" placeholder="Карменова 51а">
+                  </div>
+               </div>
+
+               <div class="calculate-form-group">
+                  <div class="calculate-form-group-field">
+                     <label for="city-B">Останова</label>
+                     <select id="city-B" type="text">
+                        <option value="1">Семей</option>
+                        <option value="1">Семей</option>
+                        <option value="1">Семей</option>
+                        <option value="1">Семей</option>
+                     </select>
+                  </div>
+
+                  <div class="calculate-form-group-field">
+                     <label for="address-B">Адрес</label>
+                     <input id="address-B" type="text" placeholder="Карменова 51а">
+                  </div>
+               </div>
+
+               <div class="calculate-form-group">
+                  <h4>Товары</h4>
+
+                  <button class="calculate-form-group-button" type="button">
+                     Добавить поле товара
+                  </button>
+               </div>
+
+               <div class="products-group">
+                  <div class="products-group-item">
+                     <div class="product-group-name">
+                        <div class="product-group-name-header">
+                           <label>Название</label>
+                        </div>
+                        <input type="text">
+                     </div>
+
+                     <div class="product-group-properties">
+                        <div class="product-group-properties__item">
+                           <label>Вес</label>
+                           <input type="text">
+                        </div>
+                        <div class="product-group-properties__item">
+                           <label>Длина</label>
+                           <input type="text">
+                        </div>
+                        <div class="product-group-properties__item">
+                           <label>Ширина</label>
+                           <input type="text">
+                        </div>
+                        <div class="product-group-properties__item">
+                           <label>Высота</label>
+                           <input type="text">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <p class="form-result-test">
+                  Скопируйте номер чека <span>123124843123</span>
+               </p>
+
+               <button class="form-button">
+                  Подтвердить
+               </button>
+            </div>
+         </form>
+      </div>
+   </section>
+
+   <footer>
+      <div class="wrapper">
+         <div class="pre-wrap">
+            <div class="footer-menu flex j-sb">
+               <div class="footer-menu__item">
+                  <div class="footer-menu__item-s">
+                     <p class="footer-menu-item__title">
+                        Головной офис
+                     </p>
+
+                     <div class="footer-menu-item__desc flex">
+                        <p>
+                           <img src="./img/point.png" width="17" height="21">
+                        </p>
+                        <p>
+                           г. Алматы <br>
+                           Dostyk Plaza
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="footer-menu__item-s">
+                     <div class="footer-menu-item__desc flex">
+                        <p>
+                           <img src="./img/tablet.png" width="17" height="21">
+                        </p>
+                        <p>
+                           Отдел логистики: <br>
+                           +7 (707) 777 7887
+                           +7 (775) 777 7887
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="footer-menu__item-s">
+                     <div class="footer-menu-item__desc flex">
+                        <p>
+                           <img src="./img/tablet.png" width="17" height="21">
+                        </p>
+                        <p>
+                           Отдел продаж: <br>
+                           +7 (707) 700 7887
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="footer-menu__item">
+                  <div class="footer-menu__item-s">
+                     <p class="footer-menu-item__title">
+                        УСЛУГИ
+                     </p>
+
+                     <div class="footer-menu-item__desc flex">
+                        <p>
+                           Доставка грузов
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="footer-menu__item-s">
+                     <div class="footer-menu-item__desc flex">
+                        <p>
+                           Снабжение
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="footer-menu__item">
+                  <div class="footer-menu__item-s">
+                     <p class="footer-menu-item__title">
+                        Контакты
+                     </p>
+
+                     <div class="footer-menu-item__desc flex">
+                        <p>
+                           <img src="./img/point.png" width="17" height="21">
+                        </p>
+                        <p>
+                           г. Алматы <br>
+                           Dostyk Plaza
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="footer-socials">
+               Мы в соц. сетях:
+
+               <a href="#" arget="_blank">
+                  <img src="./img/facebook.png" width="40" height="40">
+               </a>
+               <a href="" target="_blank">
+                  <img src="./img/instagram-v051916_200.png" width="42" height="42">
+               </a>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="js/main.js"></script>
+</body>
+
+</html>
